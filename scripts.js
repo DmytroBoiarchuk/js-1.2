@@ -12,12 +12,12 @@ document.getElementById("CSS-JS-BUT").addEventListener("click", function () {
 //task 2
 let rect = document.getElementById("RECT2");
 document.getElementById("BUT2").addEventListener("click", function () {
-    if (rect.style.visibility === "visible") {
-        rect.style.visibility = "hidden"
-        this.innerText = "Create";
-    } else {
+    if (rect.style.visibility === "hidden") {
         rect.style.visibility = "visible"
         this.innerText = "Remove";
+    } else {
+        rect.style.visibility = "hidden"
+        this.innerText = "Create";
     }
 });
 
