@@ -20,7 +20,7 @@
     visibility: hidden;
 }
 #RECT2{
-    visibility: visible;
+    visibility: visible; !important;
 }
 .rect{
     visibility: visible;
