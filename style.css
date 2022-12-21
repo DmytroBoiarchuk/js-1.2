@@ -19,8 +19,11 @@
 .hidden{
     visibility: hidden;
 }
+#RECT2{
+    visibility: visible;
+}
 .rect{
-visibility: visible;
+    visibility: visible;
     width: 100px;
     height: 100px;
     background-color: black;
